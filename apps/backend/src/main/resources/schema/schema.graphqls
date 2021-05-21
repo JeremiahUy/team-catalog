@@ -1,0 +1,7 @@
+type Query {
+    org(where: OrgFilter): Organisasjonsenhet
+}
+
+input OrgFilter {
+    agressoId: String!
+}

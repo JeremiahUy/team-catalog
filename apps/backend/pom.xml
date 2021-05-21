@@ -26,6 +26,7 @@
         <lucene.version>8.8.2</lucene.version>
         <shedlock.version>4.23.0</shedlock.version>
         <commons-collections4.version>4.4</commons-collections4.version>
+        <dgs.framework.version>3.12.1</dgs.framework.version>
 
         <microsoft-graph.version>3.5.0</microsoft-graph.version>
         <msal4j.version>1.10.0</msal4j.version>
@@ -191,6 +192,12 @@
         <dependency>
             <groupId>org.springframework.kafka</groupId>
             <artifactId>spring-kafka</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.netflix.graphql.dgs</groupId>
+            <artifactId>graphql-dgs-spring-boot-starter</artifactId>
+            <version>${dgs.framework.version}</version>
         </dependency>
 
         <!-- Kafka -->
