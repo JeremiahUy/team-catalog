@@ -41,9 +41,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "react-spring-issue-1078": "find node_modules -path \\*@react-spring/\\*/package.json -exec sed -i.bak 's/\"sideEffects\": false/\"sideEffects\": true/g' {} +",
-    "postinstall": "yarn run react-spring-issue-1078"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app",
@@ -99,6 +97,7 @@
     "react-helmet": "^6.1.0",
     "react-localization": "^1.0.17",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^5.0.0"
+    "react-scripts": "^5.0.0",
+    "graphql": "^16.3.0"
   }
 }
