@@ -58,7 +58,7 @@
       ]
     },
     "ignorePatterns": [
-      "/src/api/nomgenerated/graphql_generated.ts"
+      "/src/api/nom/generated/graphql_generated.ts"
     ]
   },
   "browserslist": {
